@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/content_main"
+                android:icon="@drawable/ic_home_black_64"
+                android:title="Home" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_puzzle"
+            android:icon="@drawable/ic_extension_black_24dp"
+            android:title="Puzzle" />
+        <item
+            android:id="@+id/nav_mind"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="Mind" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Platform" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
